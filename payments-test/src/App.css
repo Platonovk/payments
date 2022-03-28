@@ -1,0 +1,5 @@
+.app-main {
+    display: grid;
+
+    justify-items: center;
+}

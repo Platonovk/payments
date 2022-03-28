@@ -1,0 +1,25 @@
+.pay-form {
+    margin: 100px auto;
+    display: grid;
+
+    grid-template-areas:
+    "pay-input"
+    "pay-button";
+
+    grid-template-rows: 6fr 1fr;
+    grid-template-columns: 1fr;
+}
+
+.pay-input {
+    display: grid;
+
+    grid-template-areas:
+    "card-input"
+    "date-input"
+    "cvv-input"
+    "amount-input"
+    "pay-button";
+
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+}
